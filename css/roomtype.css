@@ -1,0 +1,25 @@
+img.card-img {
+    height: 300px;
+}
+
+
+a.btn.btn-primary {
+    background: #df004f;
+    border: 1px solid #df004f;
+}
+
+.container-fluid.roomcontainer {
+    width: 96%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+a.btn.btn-primary:focus, a.btn.btn-primary:hover{
+    outline:none;
+    background: #b10d48;
+}
+
+small.text-muted.card_price {
+    font-size: 19px;
+    color: #df004f !important;
+}
