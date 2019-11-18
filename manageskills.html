@@ -4,7 +4,7 @@
       <meta charset="utf-8">
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title >Manage Users</title>
+      <title >Manage Skills</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -18,12 +18,10 @@
             width: 72%;
             vertical-align: middle;
         }
-
         .img_Section {
             display: inline-block;
             vertical-align: middle;
         }
-
         img.img_item {
             width: 35px;
             vertical-align: middle;
@@ -33,7 +31,6 @@
               background: #d82e2e;
               border: 1px solid #d82e2e;
           }
-
           .container {
               margin-top: 30px;
           }
@@ -46,26 +43,28 @@
    </head>
    <body>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="admin.html">DreamSpot</a>
+                <a class="navbar-brand" href="admin.html">Skilled Graft</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
               
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
+                    <li class="nav-item ">
                       <a class="nav-link" href="admin.html">Home</a>
                     </li>
-                    <li class="nav-item active">
-                      <a class="nav-link" href="manageusers.html">Manage Users<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="manageskills.html">Manage Skills</a>
                     </li>
                     <li class="nav-item">
-                            <a class="nav-link " href="managebookings.html">Manage Bookings</a>
-                      
+                            <a class="nav-link " href="addusers.html">Add Users</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link " href="managerooms.html">Room Availability</a>
+                      <a class="nav-link " href="advertise.html">Advertise</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="managebookings.html">Manage Bookings</a>
+                      </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -80,70 +79,69 @@
                                 <div class="col-xs-4 offset-xs-4  col-md-8 offset-md-2">
                                     <div class="card">
                                         <div class="card-header">
-                                            <h4 class="head_text">Manage Users</h4>
+                                            <h4 class="head_text">Manage Skills</h4>
                                         </div>
                                         <div class="gaadiex-list">
-                                            <div class="gaadiex-list-item" id="id1"><img class="gaadiex-list-item-img" src="images/icons8-user-60.png" alt="List user">
+                                          <div class="gaadiex-list">
+                                            <div class="gaadiex-list-item" id="id1"><img class="gaadiex-list-item-img" src="images/carpenter.png" alt="List user">
                                               <div class="gaadiex-list-item-text">
-                                                <h5>Name : Gangadhar Adusumalli</h5>
-                                                <h6>Email : gangadharadusumalli1993@gmail.com</h6>
-                                                <h6>Phone : +16605280325</h6>
-                                                <div class="date_Section">
-                                                        <h6 class="joined"> Joined Date - 03/10/2019</h6>
-                                                        <div class="img_Section" onclick="openModal('id1')">
-                                                            <img class="img_item" src="images/delete.png" alt="Delete"/>
-                                                            <h6 class="delete">Delete</h6>
-                                                        </div>
+                                                <h5>Profession : Carpenter</h5>
+                                                <h6>Skill level : Professional 29.99$/hr</h6>
+                                                <h6>Intermediate 19.99$/hr</h6>
+                                                 <div class="date_Section">
+                                                           
+                                                            <div class="img_Section" onclick="openModal('id1')">
+                                                              <img class="img_item" src="images/edit.png" alt="Edit"/>
+                                                              <h6 class="delete">Edit</h6>                                                     
+                                                              </div>
+                                                              <div class="img_Section" onclick="openModal('id1')">
+                                                                <img class="img_item" src="images/delete.png" alt="Delete"/>
+                                                              <h6 class="delete">Delete</h6>
+                                                              </div>
+                                                 </div>
+                                                    
+                                                </div>        
+                                              </div>
+                                            </div>
+                                            <div class="gaadiex-list-item" id="id2"><img class="gaadiex-list-item-img" src="images/plumber.png" alt="List user">
+                                              <div class="gaadiex-list-item-text">
+                                                <h5>Profession : Plumber</h5>
+                                                <h6>Skill level : Professional 29.99$/hr</h6>
+                                                <h6>Intermediate 19.99$/hr</h6>
+                                                 <div class="date_Section">
+                                                  <div class="img_Section" onclick="openModal('id1')">
+                                                    <img class="img_item" src="images/edit.png" alt="Edit"/>
+                                                    <h6 class="delete">Edit</h6>                                                     
+                                                    </div>
+                                                    <div class="img_Section" onclick="openModal('id1')">
+                                                      <img class="img_item" src="images/delete.png" alt="Delete"/>
+                                                    <h6 class="delete">Delete</h6>
+                                                    </div>
+                                                 </div>
+                                                        
+                                              </div>        
+                                            </div>
+                                            
+                                            <div class="gaadiex-list-item" id="id3"><img class="gaadiex-list-item-img" src="images/electrician.png" alt="List user">
+                                              <div class="gaadiex-list-item-text">
+                                                <h5>Profession : Electrician</h5>
+                                                <h6>Skill level : Professional 29.99$/hr</h6>
+                                                <h6>Intermediate 19.99$/hr</h6>
+                                                 <div class="date_Section">
+                                                  <div class="img_Section" onclick="openModal('id1')">
+                                                    <img class="img_item" src="images/edit.png" alt="Edit"/>
+                                                    <h6 class="delete">Edit</h6>                                                     
+                                                    </div>
+                                                    <div class="img_Section" onclick="openModal('id1')">
+                                                      <img class="img_item" src="images/delete.png" alt="Delete"/>
+                                                    <h6 class="delete">Delete</h6>
+                                                    </div>
+                                                 </div>
                                                         
                                                 </div>        
                                               </div>
                                             </div>
-                                            <div class="gaadiex-list-item" id="id2"><img class="gaadiex-list-item-img" src="images/icons8-user-60.png" alt="List user">
-                                              <div class="gaadiex-list-item-text">
-                                                <h5>Name : Sai Mohan </h5>
-                                                <h6>Email : saimohan@gmail.com</h6>
-                                                <h6>Phone : +16605280385</h6>
-                                                <div class="date_Section">
-                                                        <h6 class="joined"> Joined Date - 02/19/2019</h6>
-                                                        <div class="img_Section" onclick="openModal('id2')">
-                                                            <img class="img_item" src="images/delete.png" alt="Delete"/>
-                                                            <h6 class="delete">Delete</h6>
-                                                        </div>
-                                                        
-                                                </div> 
-                                              </div>
                                             </div>
-                                            <div class="gaadiex-list-item" id="id3"><img class="gaadiex-list-item-img" src="images/icons8-user-60.png" alt="List user">
-                                              <div class="gaadiex-list-item-text">
-                                                <h5>Name : Divya Harshini</h5>
-                                                <h6>Email : Divyaharshini@gmail.com</h6>
-                                                <h6>Phone : +16605280425</h6>
-                                                <div class="date_Section">
-                                                        <h6 class="joined"> Joined Date - 12/13/2018</h6>
-                                                        <div class="img_Section"  onclick="openModal('id3')">
-                                                            <img class="img_item" src="images/delete.png" alt="Delete"/>
-                                                            <h6 class="delete">Delete</h6>
-                                                        </div>
-                                                        
-                                                </div> 
-                                              </div>
-                                            </div>
-                                            <div class="gaadiex-list-item" id="id4"><img class="gaadiex-list-item-img" src="images/icons8-user-60.png" alt="List user">
-                                              <div class="gaadiex-list-item-text">
-                                                <h5>Name :Uma Mahesh</h5>
-                                                <h6>Email : umamahesh@gmail.com</h6>
-                                                <h6>Phone : +16605298763</h6>
-                                                <div class="date_Section">
-                                                        <h6 class="joined"> Joined Date - 01/11/2019</h6>
-                                                        <div class="img_Section"  onclick="openModal('id4')">
-                                                            <img class="img_item" src="images/delete.png" alt="Delete"/>
-                                                            <h6 class="delete">Delete</h6>
-                                                        </div>
-                                                        
-                                                </div> 
-                                              </div>
-                                            </div>
-                                          </div>
                                     </div>
                                 </div>
                                 </div>
@@ -159,7 +157,7 @@
                               </button>
                             </div>
                             <div class="modal-body">
-                              Are you sure you want to delete this user?
+                              Are you sure you want to delete this skill?
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
@@ -191,38 +189,40 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <h6>Get started</h6>
-                                        <ul>
-                                            <li><a href="#">Home</a></li>
-                                            <li><a href="#">Sign up</a></li>
-                                            <li><a href="#">Downloads</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <h6>About us</h6>
-                                        <ul>
-                                            <li><a href="#">Company Information</a></li>
-                                            <li><a href="#">Contact us</a></li>
-                                            <li><a href="#">Reviews</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <h6>Support</h6>
-                                        <ul>
-                                            <li><a href="#">FAQ</a></li>
-                                            <li><a href="#">Help desk</a></li>
-                                            <li><a href="#">Forums</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-3 info">
-                                        <h6>Information</h6>
-                                        <p>Online motel room booking helps user to book motels by selecting their favourite rooms through online.</p>
-                                    </div>
-                                </div>
-                            </div>
+                                      <h5>Get started</h5>
+                                      <ul>
+                                          <li><a href="#">Home</a></li>
+                                          <li><a href="#">Sign up</a></li>
+                                          <li><a href="#">Downloads</a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="col-sm-3">
+                                      <h5>About us</h5>
+                                      <ul>
+                                          <p>Skilled Graft helps to book the labors to work for them as you require</p>
+                                
+                                      </ul>
+                                  </div>
+                                  <div class="col-sm-3">
+                                      <h5>Support</h5>
+                                      <ul>
+                                          <li><a href="#">FAQ</a></li>
+                                          <li><a href="#">Help desk</a></li>
+                                          <li><a href="#">Forums</a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="col-sm-3">
+                                      <h5>Contact us</h5>
+                                      <ul>
+                                          <li><a href="#">+1 660-543-6745</a></li>
+                                          <li><a href="#">skilledgraft.com</a></li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
                             <div class="second-bar">
                                <div class="container">
-                                    <h2 class="logo"><a href="#"> DreamSpot </a></h2>
+                                    <h2 class="logo"><a href="#"> Skilled Graft </a></h2>
                                     <div class="social-icons">
                                         <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
                                         <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -233,3 +233,4 @@
                         </footer>
         </body>
     </html>
+
