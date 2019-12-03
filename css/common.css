@@ -53,3 +53,5 @@ button.submit-btn:focus, button.submit-btn:hover{
     outline:none;
     background: #37832C;
 }
+
+.pointer         { cursor: pointer; }
