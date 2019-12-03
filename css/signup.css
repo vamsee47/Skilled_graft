@@ -40,13 +40,13 @@
 }
 
 button.btn.btn-primary.btn-block {
-    background: #df004f;
-    border: 1px solid #df004f;
+    background: #37832C;
+    border: 1px solid #37832C;
 }
 
 
 button.btn.btn-primary.btn-block:focus,button.btn.btn-primary.btn-block:hover{
     outline: none;
-    background: #b10d48;
+    background: #37832C;
   }
 

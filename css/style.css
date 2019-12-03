@@ -26,7 +26,7 @@
 
 h5.price {
     border-bottom: 2px solid #6c757d4f;
-    color: #df004f;
+    color: #37832C;
     padding-bottom: 8px;
 }
 
@@ -46,7 +46,7 @@ h5.price {
 .booking-cta h1 {
 	font-size: 52px;
 	text-transform: uppercase;
-	color: #df004f;
+	color: #37832C;
 	font-weight: 900;
 }
 
@@ -153,19 +153,19 @@ h5.price {
 
 .booking-form .form-group .form-control:focus+.form-label {
 	top: 0px;
-	color: #DF004F;
+	color: #37832C;
 	font-size: 14px;
 }
 
 .booking-form .form-group.input-not-empty .form-label {
 	top: 0px;
-	color: #DF004F;
+	color: #37832C;
 	font-size: 13px;
 }
 
 .booking-form .submit-btn {
 	color: #fff;
-	background-color: #DF004F;
+	background-color: #37832C;
 	font-weight: 700;
 	height: 55px;
 	padding: 10px 35px;
@@ -179,5 +179,5 @@ h5.price {
 footer#myFooter {margin: 0;}
 
 h5.payment {
-    color: #df004f;
+    color: #37832C;
 }
