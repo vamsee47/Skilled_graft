@@ -33,7 +33,7 @@ h6.checkdate {
 }
 
 h4.head_text{
-    color:#df004f;
+    color:#37832C;
 }
 
 .date_Section {
@@ -63,6 +63,6 @@ button.btn.btn-primary.approve {
 
 button.btn.btn-primary.reject {
     width: 86px;
-    background: #cc1818;
-    border: 1px solid #cc1818;
+    background: #37832C;
+    border: 1px solid #37832C;
 }

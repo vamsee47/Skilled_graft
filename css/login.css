@@ -8,7 +8,7 @@
 }
 .login-form-1 h3{
     text-align: center;
-    color: #df004f;
+    color: #37832C;
 }
 .login-form-2{
     padding: 5%;
@@ -17,7 +17,7 @@
 }
 .login-form-2 h3{
     text-align: center;
-    color: #df004f;
+    color: #37832C;
 }
 .login-container form{
     padding: 10%;
@@ -34,20 +34,20 @@
 .login-form-1 .btnSubmit{
     font-weight: 600;
     color: #fff;
-    background-color: #df004f;
+    background-color: #37832C;
 }
 .login-form-2 .btnSubmit{
     font-weight: 600;
     color: #fff;
-    background-color: #df004f;
+    background-color: #37832C;
 }
 .login-form-2 .ForgetPwd{
-    color: #df004f;
+    color: #37832C;
     font-weight: 600;
     text-decoration: none;
 }
 .login-form-1 .ForgetPwd{
-    color: #df004f;
+    color: #37832C;
     font-weight: 600;
     text-decoration: none;
 }
@@ -60,7 +60,7 @@
     cursor: pointer;
     font-weight: 600;
     color: #fff;
-    background-color: #df004f;
+    background-color: #37832C;
 }
 
 .login_section {
@@ -87,18 +87,18 @@ ul#myTab {
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    border-color: #df004f;
-    background: #df004f;
+    border-color: #37832C;
+    background: #37832C;
     color: #fff !important;
 }
 
 .nav-link{
-    color: #df004f!important;
+    color: #37832C!important;
 }
 
 .nav-tabs .nav-link{
     border: 2px solid #dfd5d930;
-    color: #df004f !important;
+    color: #37832C !important;
 }
 
 .btnSubmit:focus,.loginBtn:focus{
@@ -106,11 +106,11 @@ ul#myTab {
   }
 
 .btnSubmit:hover, .loginBtn:hover {
-    background: #b10d48;
+    background: #37832C;
     outline: none;
 }
 
 h6.account {
     margin-left: 40px;
-    color: #df004f;
+    color: #37832C;
 }

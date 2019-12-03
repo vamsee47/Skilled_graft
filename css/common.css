@@ -3,7 +3,7 @@ a.navbar-brand {
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-    background: #DF004F  !important;
+    background: #37832C  !important;
 }
 
 a.nav-link {
@@ -11,7 +11,7 @@ a.nav-link {
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active {
-    color: #df004f  !important;
+    color: #37832C  !important;
     background: #fff;
 }
 
@@ -46,10 +46,10 @@ footer#myFooter {
 
 .carousel-caption.d-none.d-md-block {
     background: #ffffffbf;
-    color: #df004f;
+    color: #37832C;
 }
 
 button.submit-btn:focus, button.submit-btn:hover{
     outline:none;
-    background: #b10d48;
+    background: #37832C;
 }

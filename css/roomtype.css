@@ -4,8 +4,8 @@ img.card-img {
 
 
 a.btn.btn-primary {
-    background: #df004f;
-    border: 1px solid #df004f;
+    background: #37832C;
+    border: 1px solid #37832C;
 }
 
 .container-fluid.roomcontainer {
@@ -16,10 +16,10 @@ a.btn.btn-primary {
 
 a.btn.btn-primary:focus, a.btn.btn-primary:hover{
     outline:none;
-    background: #b10d48;
+    background: #37832C;
 }
 
 small.text-muted.card_price {
     font-size: 19px;
-    color: #df004f !important;
+    color: #37832C !important;
 }

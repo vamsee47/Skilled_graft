@@ -27,14 +27,14 @@
 	content: "";
 	width: 60px;
 	height: 2px;
-	background-color: #DF004F;
+	background-color: #37832C;
 	bottom: 0;
 	left: 50%;
 	margin-left: -30px;
 }
 .section-title h4:after {
 	position: absolute;
-	background-color: #DF004F;
+	background-color: #37832C;
 	content: "";
 	width: 10px;
 	height: 10px;
@@ -52,13 +52,13 @@
 }
 
 .single-service:hover {
-	background:#df004f;
+	background:#37832C;
 	color:#fff;
 }
 .single-service i.fa {
   width: 60px;
   height: 60px;
-  background-color: #DF004F;
+  background-color: #37832C;
   font-size: 25px;
   color: #fff;
   line-height: 60px;
@@ -72,7 +72,7 @@
 .single-service:hover i.fa {
 	border-radius: 50%;
 	background: #fff;
-	color:#df004f;
+	color:#37832C;
 }
 .single-service h4 {
 	text-transform: capitalize;
