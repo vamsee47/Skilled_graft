@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Electricians booking 2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/Footer-with-logo.css">
+    <link rel="stylesheet" href="css/common.css">
+    <style>
+        .container {
+            margin-top: 80px;
+        }
+
+        button.btn.btn-danger {
+            background: #df004f;
+            border: 1px solid #df004f;
+        }
+
+        section#contact {
+            padding-bottom: 12px !important;
+            background: #f8f9faa6 !important;
+        }
+    </style>.
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="user.html">SkilledGraft</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="user.html">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="roomtype.html">Booking</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " href="about.html">About Us</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link " href="contact.html">Contact Us<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <a href="index.html"><span class="navbar-text">Signout</span> </a>
+        </div>
+    </nav>
+    <section class="contact py-5 bg-light" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Electrician Details: </h4>
+                    <hr>
+                </div>
+                <div class="col-md-6">
+                    <h5>Select Booking Date: <input type="date" id="myDate"> </h5>
+                    <h5>Time Slot: <select id="inputState" class="form-control">
+                            <option selected>Time Slots ...</option>
+                            <option> 8am - 9am</option>
+                            <option> 9am - 10am</option>
+                            <option> 10am - 11am</option>
+                            <option> 11am - 12 Noon</option>
+                            <option> 12 Noon - 1pm</option>
+                            <option> 1pm - 2pm</option>
+                            <option> 2pm - 3pm</option>
+                            <option> 3pm - 4pm</option>
+                            <option> 4pm - 5pm</option>
+                        </select> </h5>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="address">
+                        <h5>Name: Electrician 2</h5>
+                        <h6>Email: Electrician2@gmail.com</h6>
+                        <h6>Phone: + 1 -2345678901</h6>
+                        <h6>Skill Level & Pay: Intermediate 19.99$/hr</h6>
+<hr>
+                        <h3>Reviews and Feedback:</h3>
+                        <h5> 1. Customer Name: Damon Salvatore</h5>
+                        <p> <b>Feed Back:</b> Great Work  and Very Skilled worker</p>
+                    </div>
+
+
+                    <hr>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <form>
+                                <div class="form-row">
+                                    <h4>Booking Address </h4>
+                                    <div class="form-group col-md-12">
+                                        <textarea id="comment" name="comment" cols="40" rows="5"
+                                            placeholder="Enter address and Landmark" class="form-control"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <button type="button" class="btn btn-danger">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>About us</h5>
+                    <ul>
+                        <p>Skilled Graft helps to book the labors to work for them as you require</p>
+              
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Contact us</h5>
+                    <ul>
+                        <li><a href="#">+1 660-543-6745</a></li>
+                        <li><a href="#">skilledgraft@email.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="second-bar">
+           <div class="container">
+                <h2 class="logo"><a href="#"> Skilled Graft </a></h2>
+                <div class="social-icons">
+                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
