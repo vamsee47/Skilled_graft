@@ -24,6 +24,6 @@
   })();
 
   $('#myModal').on('hide.bs.modal', function (e) {
-        window.location.href = "https://gangadhar993.github.io/DreamSpot/index.html";
+        window.location.href = "https://vamsee47.github.io/Skilled_graft/index.html";
     
   });
