@@ -51,11 +51,11 @@
 	margin-bottom: 30px;
 	cursor: pointer;
 }
-
 .single-service:hover {
-	background:#df004f;
+	background:#37832C;
 	color:#fff;
 }
+
 .single-service i.fa {
   width: 60px;
   height: 60px;
