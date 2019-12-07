@@ -26,15 +26,15 @@
   $('#myModal').on('hide.bs.modal', function (e) {
     var formsElements = document.getElementsByClassName('tab-pane fade show active text-align form-new');
     if(formsElements[0].id == "admin"){
-        window.location.href = "https://gangadhar993.github.io/DreamSpot/admin.html";
+        window.location.href = "https://vamsee47.github.io/Skilled_graft/admin.html";
     }
     else{
-        window.location.href = "https://gangadhar993.github.io/DreamSpot/user.html";
+        window.location.href = "https://vamsee47.github.io/Skilled_graft/user.html";
     }
     
   });
 
   function goToRegister(){
-    window.location.href = "https://gangadhar993.github.io/DreamSpot/register.html";
+    window.location.href = "https://vamsee47.github.io/Skilled_graft/register.html";
   }
 
