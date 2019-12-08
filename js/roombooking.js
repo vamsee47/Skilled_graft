@@ -20,7 +20,7 @@
       
     });
     $('#myModal').on('hidden.bs.modal', function (e) {
-      window.location.href = "https://gangadhar993.github.io/DreamSpot/user.html";
+      window.location.href = "https://vamsee47.github.io/Skilled_graft/user.html";
   
 });
   }, false);
