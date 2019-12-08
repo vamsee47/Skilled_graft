@@ -53,5 +53,15 @@ button.submit-btn:focus, button.submit-btn:hover{
     outline:none;
     background: #37832C;
 }
+button.btn.btn-primary.approve {
+    width: 86px;
+    background: #0c730c;
+    border: 1px solid #0c730c;
+    margin-right: 20px;
+}
 
-.pointer         { cursor: pointer; }
+button.btn.btn-primary.reject {
+    width: 86px;
+    background: rgb(226, 44, 44);
+    border: rgb(226, 44, 44);
+}
