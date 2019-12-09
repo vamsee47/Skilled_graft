@@ -20,7 +20,7 @@
         
       });
       $('#myModal').on('hidden.bs.modal', function (e) {
-        window.location.href = "https://vamsee47.github.io/Skilled_graft/blob/master/manageskills.html";
+        window.location.href = "https://vamsee47.github.io/Skilled_graft/manageskills.html";
     
   });
     }, false);
