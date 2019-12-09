@@ -15,26 +15,65 @@
       <link rel="stylesheet" href="css/modal_success.css">
    </head>
    <body>
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <IMG SRC="images/logo.jpg" ALT="logo" WIDTH=80 HEIGHT=50>
-    <a class="navbar-brand" href="#">SkilledGraft</a>
-  </nav>
+      <a class="navbar-brand" href="#">&nbsp;&nbsp;&nbsp;SkilledGraft</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="user.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="No_bookings_page.html">Booking</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Profile_Edit page.html">Profile</a>
+          </li>
+  
+          <li class="nav-item ">
+            <a class="nav-link " href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="contact.html">Contact Us</a>
+          </li>
+      
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          
+        </form>
+       
+        
+        <a href="index.html"><span class="navbar-text">Signout</span> </a>
+        
+      </div>
+    </nav>
 
 <div class="container">
 <hr>
 <div class="card bg-light">
 <article class="card-body mx-auto" style="max-width: 400px;">
+
+    <br>
+    <br>
+    
 	<h4 class="card-title mt-3 text-center">Profile</h4>
 
 	<p class="divider-text">
-        <span class="bg-light">OR</span>
+        <!-- <span class="bg-light">OR</span> -->
     </p>
 	<form  class="needs-validation"  novalidate> 
 	<div class="form-group input-group">
 		<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
 		 </div>
-        <input name="" class="form-control" placeholder="Full name" type="text"  pattern="[a-zA-Z]*( [a-zA-Z]*)?" required>
+        <input name="" class="form-control" Value = "Sandeep" type="text"  pattern="[a-zA-Z]*( [a-zA-Z]*)?" required>
         <div class="valid-feedback">
             Looks good!
            </div>
@@ -46,7 +85,7 @@
 		<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
 		 </div>
-        <input name="" class="form-control" placeholder="Username" type="text"  pattern="^(?=.{5,20}$)(?![_.])(?!.*[_.]{2})[a-zA-Z0-9._]+(?<![_.])$" required >
+        <input name="" class="form-control" Value = "Sandeep" type="text"  pattern="^(?=.{5,20}$)(?![_.])(?!.*[_.]{2})[a-zA-Z0-9._]+(?<![_.])$" required >
         <div class="valid-feedback">
             Looks good!
            </div>
@@ -58,7 +97,7 @@
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
 		 </div>
-        <input name="" class="form-control" placeholder="Email address" type="email"  pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+        <input name="" class="form-control" Value = "sandeep.katrevula@gmail.com" type="email"  pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
         <div class="valid-feedback">
             Looks good!
            </div>
@@ -73,7 +112,7 @@
 		<select class="custom-select" style="max-width: 60px;">
 		    <option selected="">+1</option>
 		</select>
-        <input name="" class="form-control" placeholder="Phone number"  type="tel" pattern="^\D?(\d{3})\D?\D?(\d{3})\D?(\d{4})$" required>
+        <input name="" class="form-control" Value = "1234567890"  type="tel" pattern="^\D?(\d{3})\D?\D?(\d{3})\D?(\d{4})$" required>
         <div class="valid-feedback">
             Looks good!
            </div>
@@ -86,7 +125,7 @@
     	<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
 		</div>
-        <input class="form-control" placeholder="Create password" type="password" required>
+        <input class="form-control" value="XXXXXXXXX" type="password" required>
         <div class="valid-feedback">
             Looks good!
            </div>
@@ -96,9 +135,9 @@
     </div> <!-- form-group// -->
    <!-- form-group// -->                                      
     <div class="form-group">
-        <button type="submit" class="btn btn-primary btn-block"> Register  </button>
+        <button type="submit" class="btn btn-primary btn-block"> Update  </button>
     </div> <!-- form-group// -->      
-    <p class="text-center">Have an account? <a href="index.html">Log In</a> </p>                                                                 
+    <!-- <p class="text-center">Have an account? <a href="index.html">Log In</a> </p>                                                                  -->
 </form>
 </article>
 </div> <!-- card.// -->
@@ -111,13 +150,13 @@
              <div class="icon-box">
                 <i class="material-icons">&#xE876;</i>
              </div>				
-             <h4 class="modal-title">Success!</h4>	
+             <h4 class="modal-title">Updated Successfully!</h4>	
           </div>
           <div class="modal-body">
-             <p class="text-center">You have been Regsitered succesfully</p>
+             <!-- <p class="text-center">You have been Regsitered succesfully</p> -->
           </div>
           <div class="modal-footer">
-             <button class="btn btn-success btn-block" data-dismiss="modal">OK</button>
+             <button class="btn btn-success btn-block"  onclick="location.href='Profile_Edit page.html';">OK</button>
           </div>
        </div>
     </div>
